@@ -25,5 +25,5 @@ jobs:
         bundler-cache: true
     - name: Run tests
       run: make test
-    - name: Run tests
-      run: make test
+    - name: Run linter
+      run: make lint
