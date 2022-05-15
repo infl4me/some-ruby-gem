@@ -37,6 +37,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.18.0)
       parser (>= 3.1.1.0)
+    rubocop-minitest (0.19.1)
+      rubocop (>= 0.90, < 2.0)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.1.0)
     webmock (3.14.0)
@@ -53,6 +55,7 @@ DEPENDENCIES
   nokogiri-happymapper
   rake (~> 13.0)
   rubocop
+  rubocop-minitest
   webmock
 
 BUNDLED WITH
